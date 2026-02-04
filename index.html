@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMP Lifting Club - Elite Performance Training</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="amp-container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-content">
+                <div class="logo-container">
+                    <img src="logo.png" alt="AMP Lifting Club" class="logo-img">
+                    <div class="logo-text">AMP LIFTING CLUB</div>
+                </div>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link"><span>HOME</span></a>
+                    <a href="#plan" class="nav-link"><span>PLAN</span></a>
+                    <a href="#schedule" class="nav-link"><span>SCHEDULE</span></a>
+                    <a href="#about" class="nav-link"><span>ABOUT</span></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Home Page -->
+        <div id="home" class="page">
+            <div class="page-content">
+                <section class="hero-section">
+                    <div class="hero-layout">
+                        <div class="hero-content">
+                            <div class="hero-badge">ELITE PERFORMANCE</div>
+                            <h1 class="hero-title">
+                                TRANSFORM YOUR
+                                <span class="title-highlight">LIMITS</span>
+                            </h1>
+                            <p class="hero-description">
+                                Join the most disciplined fitness community. Where warriors are forged, limits are shattered, and champions are built.
+                            </p>
+                            <a href="#plan" class="cta-primary">START YOUR JOURNEY →</a>
+                        </div>
+                        <div class="hero-image">
+                            <img src="gym_guy_2.jpeg" alt="Elite Athlete" class="athlete-img">
+                        </div>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Active Members</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15K+</div>
+                            <div class="stat-label">Workouts Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Success Rate</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="features-section">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6.5 6.5l11 11m0-11l-11 11M3 12h3m15 0h3M12 3v3m0 15v3"/>
+                                <circle cx="12" cy="12" r="2"/>
+                            </svg>
+                        </div>
+                        <h3>Expert Training</h3>
+                        <p>Customized programs designed by certified trainers to reach your peak performance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <h3>Track Progress</h3>
+                        <p>Monitor your gains with precision tracking tools and analytics.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                                <path d="M4 22h16"/>
+                                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+                            </svg>
+                        </div>
+                        <h3>Achieve Goals</h3>
+                        <p>Proven methodologies with structured programs and unwavering support.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Plan Page -->
+        <div id="plan" class="page">
+            <div class="page-content">
+                <section class="plan-header">
+                    <h1 class="section-title">CREATE YOUR WORKOUT PLAN</h1>
+                    <p class="section-subtitle">Select your experience level and primary goal to receive personalized program recommendations</p>
+                </section>
+
+                <div class="selector-container">
+                    <div class="selector-group">
+                        <h3 class="selector-title">SELECT YOUR LEVEL</h3>
+                        <div class="button-group">
+                            <input type="radio" name="level" id="level-beginner" class="selector-input">
+                            <label for="level-beginner" class="selector-label">Beginner</label>
+                            
+                            <input type="radio" name="level" id="level-intermediate" class="selector-input">
+                            <label for="level-intermediate" class="selector-label">Intermediate</label>
+                            
+                            <input type="radio" name="level" id="level-advanced" class="selector-input">
+                            <label for="level-advanced" class="selector-label">Advanced</label>
+                        </div>
+                    </div>
+
+                    <div class="selector-group">
+                        <h3 class="selector-title">SELECT YOUR GOAL</h3>
+                        <div class="button-group">
+                            <input type="radio" name="goal" id="goal-strength" class="selector-input">
+                            <label for="goal-strength" class="selector-label">Strength</label>
+                            
+                            <input type="radio" name="goal" id="goal-muscle" class="selector-input">
+                            <label for="goal-muscle" class="selector-label">Muscle Gain</label>
+                            
+                            <input type="radio" name="goal" id="goal-fat" class="selector-input">
+                            <label for="goal-fat" class="selector-label">Fat Loss</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hidden inputs for combination selection -->
+                <input type="radio" name="combination" id="beginner-strength" class="selector-input">
+                <input type="radio" name="combination" id="beginner-muscle" class="selector-input">
+                <input type="radio" name="combination" id="beginner-fat" class="selector-input">
+                <input type="radio" name="combination" id="intermediate-strength" class="selector-input">
+                <input type="radio" name="combination" id="intermediate-muscle" class="selector-input">
+                <input type="radio" name="combination" id="intermediate-fat" class="selector-input">
+                <input type="radio" name="combination" id="advanced-strength" class="selector-input">
+                <input type="radio" name="combination" id="advanced-muscle" class="selector-input">
+                <input type="radio" name="combination" id="advanced-fat" class="selector-input">
+
+                <!-- BEGINNER STRENGTH PROGRAMS -->
+                <div id="beginner-strength-programs" class="programs-section">
+                    <h3 class="programs-title">YOUR RECOMMENDED PROGRAMS</h3>
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Foundation Strength</h4>
+                                <div class="program-badge">Full Body</div>
+                            </div>
+                            <div class="program-meta">3 days/week</div>
+                            <p class="program-description">Build fundamental strength patterns with compound movements. Perfect for establishing proper form and baseline power.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Upper/Lower Fundamentals</h4>
+                                <div class="program-badge">Upper/Lower</div>
+                            </div>
+                            <div class="program-meta">4 days/week</div>
+                            <p class="program-description">Divide and conquer approach focusing on major muscle groups with adequate recovery time.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Starting Strength Protocol</h4>
+                                <div class="program-badge">Full Body</div>
+                            </div>
+                            <div class="program-meta">3 days/week</div>
+                            <p class="program-description">Classic strength-building program emphasizing progressive overload on core lifts.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BEGINNER MUSCLE PROGRAMS -->
+                <div id="beginner-muscle-programs" class="programs-section">
+                    <h3 class="programs-title">YOUR RECOMMENDED PROGRAMS</h3>
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Hypertrophy Foundation</h4>
+                                <div class="program-badge">Push/Pull/Legs</div>
+                            </div>
+                            <div class="program-meta">3 days/week</div>
+                            <p class="program-description">Targeted muscle building with volume-based training for maximum growth stimulus.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Upper/Lower Mass Builder</h4>
+                                <div class="program-badge">Upper/Lower</div>
+                            </div>
+                            <div class="program-meta">4 days/week</div>
+                            <p class="program-description">Balanced approach to building muscle across all major groups with optimal frequency.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Full Body Growth</h4>
+                                <div class="program-badge">Full Body</div>
+                            </div>
+                            <div class="program-meta">3 days/week</div>
+                            <p class="program-description">Hit every muscle group multiple times per week for accelerated beginner gains.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BEGINNER FAT LOSS PROGRAMS -->
+                <div id="beginner-fat-programs" class="programs-section">
+                    <h3 class="programs-title">YOUR RECOMMENDED PROGRAMS</h3>
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Metabolic Conditioning</h4>
+                                <div class="program-badge">Full Body + Cardio</div>
+                            </div>
+                            <div class="program-meta">4 days/week</div>
+                            <p class="program-description">High-intensity circuits combined with strength work to maximize calorie burn and preserve muscle.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Lean & Strong Protocol</h4>
+                                <div class="program-badge">Upper/Lower</div>
+                            </div>
+                            <div class="program-meta">4 days/week</div>
+                            <p class="program-description">Maintain strength while in caloric deficit with strategic volume and conditioning finishers.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Fat Shred Fundamentals</h4>
+                                <div class="program-badge">Full Body</div>
+                            </div>
+                            <div class="program-meta">3 days/week</div>
+                            <p class="program-description">Efficient full-body sessions with cardio acceleration techniques for maximum fat loss.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INTERMEDIATE STRENGTH PROGRAMS -->
+                <div id="intermediate-strength-programs" class="programs-section">
+                    <h3 class="programs-title">YOUR RECOMMENDED PROGRAMS</h3>
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Powerlifting Progression</h4>
+                                <div class="program-badge">Upper/Lower</div>
+                            </div>
+                            <div class="program-meta">4 days/week</div>
+                            <p class="program-description">Periodized strength program focusing on the big three: squat, bench, deadlift with accessory work.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">5/3/1 Strength System</h4>
+                                <div class="program-badge">4-Day Split</div>
+                            </div>
+                            <div class="program-meta">4 days/week</div>
+                            <p class="program-description">Proven monthly progression model building raw strength with calculated deloads.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Texas Method</h4>
+                                <div class="program-badge">3-Day Split</div>
+                            </div>
+                            <div class="program-meta">3 days/week</div>
+                            <p class="program-description">Volume-recovery-intensity model for intermediate lifters ready to push boundaries.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INTERMEDIATE MUSCLE PROGRAMS -->
+                <div id="intermediate-muscle-programs" class="programs-section">
+                    <h3 class="programs-title">YOUR RECOMMENDED PROGRAMS</h3>
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Hypertrophy Specialization</h4>
+                                <div class="program-badge">Push/Pull/Legs</div>
+                            </div>
+                            <div class="program-meta">6 days/week</div>
+                            <p class="program-description">High-frequency muscle building with dedicated training blocks for maximum hypertrophy.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Upper/Lower Power & Size</h4>
+                                <div class="program-badge">Upper/Lower</div>
+                            </div>
+                            <div class="program-meta">5 days/week</div>
+                            <p class="program-description">Combine strength and hypertrophy rep ranges for both size and performance gains.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Body Part Split Pro</h4>
+                                <div class="program-badge">Bro Split</div>
+                            </div>
+                            <div class="program-meta">5 days/week</div>
+                            <p class="program-description">Classic bodybuilding approach with dedicated days for complete muscle annihilation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INTERMEDIATE FAT LOSS PROGRAMS -->
+                <div id="intermediate-fat-programs" class="programs-section">
+                    <h3 class="programs-title">YOUR RECOMMENDED PROGRAMS</h3>
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Strength & Shred</h4>
+                                <div class="program-badge">Upper/Lower + HIIT</div>
+                            </div>
+                            <div class="program-meta">5 days/week</div>
+                            <p class="program-description">Preserve maximum strength while cutting body fat with strategic cardio placement.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Metabolic Resistance Training</h4>
+                                <div class="program-badge">Push/Pull/Legs</div>
+                            </div>
+                            <div class="program-meta">5 days/week</div>
+                            <p class="program-description">High-volume resistance work with minimal rest to keep heart rate elevated.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Cut Protocol Advanced</h4>
+                                <div class="program-badge">Full Body</div>
+                            </div>
+                            <div class="program-meta">4 days/week</div>
+                            <p class="program-description">High-frequency training maintaining muscle mass while maximizing energy expenditure.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ADVANCED STRENGTH PROGRAMS -->
+                <div id="advanced-strength-programs" class="programs-section">
+                    <h3 class="programs-title">YOUR RECOMMENDED PROGRAMS</h3>
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Elite Powerlifting Block</h4>
+                                <div class="program-badge">Competition Prep</div>
+                            </div>
+                            <div class="program-meta">5 days/week</div>
+                            <p class="program-description">Advanced periodization with specificity work, max effort days, and dynamic training.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Conjugate Method</h4>
+                                <div class="program-badge">4-Day Rotation</div>
+                            </div>
+                            <div class="program-meta">4 days/week</div>
+                            <p class="program-description">Westside Barbell approach rotating max effort and dynamic effort for explosive strength.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Strength Peaking Program</h4>
+                                <div class="program-badge">DUP Protocol</div>
+                            </div>
+                            <div class="program-meta">4 days/week</div>
+                            <p class="program-description">Daily undulating periodization for advanced athletes seeking competition-level strength.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ADVANCED MUSCLE PROGRAMS -->
+                <div id="advanced-muscle-programs" class="programs-section">
+                    <h3 class="programs-title">YOUR RECOMMENDED PROGRAMS</h3>
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Pro Bodybuilding Split</h4>
+                                <div class="program-badge">6-Day Specialization</div>
+                            </div>
+                            <div class="program-meta">6 days/week</div>
+                            <p class="program-description">Elite-level volume and intensity with lagging muscle group prioritization.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Push/Pull/Legs Advanced</h4>
+                                <div class="program-badge">Push/Pull/Legs x2</div>
+                            </div>
+                            <div class="program-meta">6 days/week</div>
+                            <p class="program-description">Twice per week frequency on all muscle groups with periodized intensity waves.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Hypertrophy Block Periodization</h4>
+                                <div class="program-badge">Upper/Lower Advanced</div>
+                            </div>
+                            <div class="program-meta">5 days/week</div>
+                            <p class="program-description">Structured mesocycles with progressive overload and deload weeks for continuous growth.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ADVANCED FAT LOSS PROGRAMS -->
+                <div id="advanced-fat-programs" class="programs-section">
+                    <h3 class="programs-title">YOUR RECOMMENDED PROGRAMS</h3>
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Competition Prep Protocol</h4>
+                                <div class="program-badge">Daily Training</div>
+                            </div>
+                            <div class="program-meta">6 days/week</div>
+                            <p class="program-description">Stage-ready conditioning while maintaining maximum muscle mass through strategic programming.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Advanced Recomp</h4>
+                                <div class="program-badge">Push/Pull/Legs + Cardio</div>
+                            </div>
+                            <div class="program-meta">6 days/week</div>
+                            <p class="program-description">Simultaneous muscle building and fat loss for advanced trainees with precise nutrition timing.</p>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <h4 class="program-name">Peak Performance Cut</h4>
+                                <div class="program-badge">Upper/Lower + HIIT</div>
+                            </div>
+                            <div class="program-meta">5 days/week</div>
+                            <p class="program-description">Maintain peak strength while achieving single-digit body fat through calculated training.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Schedule Page -->
+        <div id="schedule" class="page">
+            <div class="page-content">
+                <section class="schedule-header">
+                    <h1 class="section-title">CLASS SCHEDULE</h1>
+                    <p class="section-subtitle">Book your spot in our elite training sessions</p>
+                </section>
+
+                <div class="schedule-grid">
+                    <div class="schedule-card">
+                        <div class="schedule-top">
+                            <div>
+                                <h3 class="schedule-name">Morning Power Lifting</h3>
+                                <p class="schedule-instructor">with Mike Johnson</p>
+                            </div>
+                            <div class="schedule-level">All Levels</div>
+                        </div>
+                        <div class="schedule-details">
+                            <div class="detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                                <span>6:00 AM</span>
+                            </div>
+                            <div class="detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                                <span>90 min</span>
+                            </div>
+                        </div>
+                        <input type="checkbox" id="book1" class="book-checkbox">
+                        <label for="book1" class="book-btn">BOOK</label>
+                        <div class="notification">✓ Session successfully booked: Morning Power Lifting at 6:00 AM. See you there.</div>
+                    </div>
+
+                    <div class="schedule-card">
+                        <div class="schedule-top">
+                            <div>
+                                <h3 class="schedule-name">Strength & Conditioning</h3>
+                                <p class="schedule-instructor">with Coach Sarah</p>
+                            </div>
+                            <div class="schedule-level">Intermediate</div>
+                        </div>
+                        <div class="schedule-details">
+                            <div class="detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                                <span>9:00 AM</span>
+                            </div>
+                            <div class="detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                                <span>60 min</span>
+                            </div>
+                        </div>
+                        <input type="checkbox" id="book2" class="book-checkbox">
+                        <label for="book2" class="book-btn">BOOK</label>
+                        <div class="notification">✓ Session successfully booked: Strength & Conditioning at 9:00 AM. See you there.</div>
+                    </div>
+
+                    <div class="schedule-card">
+                        <div class="schedule-top">
+                            <div>
+                                <h3 class="schedule-name">Lunch Hour HIIT</h3>
+                                <p class="schedule-instructor">with Alex Martinez</p>
+                            </div>
+                            <div class="schedule-level">All Levels</div>
+                        </div>
+                        <div class="schedule-details">
+                            <div class="detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                                <span>12:00 PM</span>
+                            </div>
+                            <div class="detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                                <span>45 min</span>
+                            </div>
+                        </div>
+                        <input type="checkbox" id="book3" class="book-checkbox">
+                        <label for="book3" class="book-btn">BOOK</label>
+                        <div class="notification">✓ Session successfully booked: Lunch Hour HIIT at 12:00 PM. See you there.</div>
+                    </div>
+
+                    <div class="schedule-card">
+                        <div class="schedule-top">
+                            <div>
+                                <h3 class="schedule-name">Evening CrossFit</h3>
+                                <p class="schedule-instructor">with Coach Mike</p>
+                            </div>
+                            <div class="schedule-level">Advanced</div>
+                        </div>
+                        <div class="schedule-details">
+                            <div class="detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                                <span>5:00 PM</span>
+                            </div>
+                            <div class="detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                                <span>60 min</span>
+                            </div>
+                        </div>
+                        <input type="checkbox" id="book4" class="book-checkbox">
+                        <label for="book4" class="book-btn">BOOK</label>
+                        <div class="notification">✓ Session successfully booked: Evening CrossFit at 5:00 PM. See you there.</div>
+                    </div>
+
+                    <div class="schedule-card">
+                        <div class="schedule-top">
+                            <div>
+                                <h3 class="schedule-name">Advanced Bodybuilding</h3>
+                                <p class="schedule-instructor">with Marcus Steel</p>
+                            </div>
+                            <div class="schedule-level">Advanced</div>
+                        </div>
+                        <div class="schedule-details">
+                            <div class="detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                                <span>7:00 PM</span>
+                            </div>
+                            <div class="detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                                <span>90 min</span>
+                            </div>
+                        </div>
+                        <input type="checkbox" id="book5" class="book-checkbox">
+                        <label for="book5" class="book-btn">BOOK</label>
+                        <div class="notification">✓ Session successfully booked: Advanced Bodybuilding at 7:00 PM. See you there.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page">
+            <div class="page-content">
+                <section class="about-hero">
+                    <h1 class="section-title">ABOUT AMP LIFTING CLUB</h1>
+                    <p class="about-tagline">We transform lives through discipline, strength, and unwavering commitment.</p>
+                </section>
+
+                <div class="about-content">
+                    <div class="about-section">
+                        <h2 class="about-heading">OUR MISSION</h2>
+                        <p class="about-text">
+                            At AMP Lifting Club, we believe fitness is more than just exercise — it's a lifestyle. Since 2015, 
+                            we've been dedicated to helping members transform their limits and achieve peak performance through 
+                            elite training programs, cutting-edge equipment, and an unbeatable community atmosphere.
+                        </p>
+                    </div>
+
+                    <div class="about-section">
+                        <h2 class="about-heading">OUR VALUES</h2>
+                        <div class="values-grid">
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <path d="M12 6v6l4 2"/>
+                                    </svg>
+                                </div>
+                                <h3>Excellence</h3>
+                                <p>We pursue mastery in every rep, every set, every session.</p>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="9" cy="7" r="4"/>
+                                        <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                                    </svg>
+                                </div>
+                                <h3>Community</h3>
+                                <p>Warriors supporting warriors on the path to greatness.</p>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                                        <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                                        <path d="M4 22h16"/>
+                                        <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                                        <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                                        <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+                                    </svg>
+                                </div>
+                                <h3>Results</h3>
+                                <p>Measurable progress through proven training methods.</p>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M6.5 6.5l11 11m0-11l-11 11M3 12h3m15 0h3M12 3v3m0 15v3"/>
+                                        <circle cx="12" cy="12" r="2"/>
+                                    </svg>
+                                </div>
+                                <h3>Discipline</h3>
+                                <p>Consistency and dedication separate the best from the rest.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="membership-cta">
+                        <h2>JOIN THE AMP FAMILY</h2>
+                        <p>Ready to transform your limits and become part of an elite community?</p>
+                        <a href="#plan" class="cta-primary">GET MEMBERSHIP →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
